@@ -40,9 +40,10 @@ TWITTER_EMAIL="your@email.com"
 ```
 
 ## Install dependencies and start your agent
-
+## Use pnpm i and also pnpm build and pnpm pnpm start --characters="path/to/your/character.json"
+## If something does not work do pnpm clean then pnpm i and pnpm build again.
 ```bash
-pnpm i && pnpm start
+pnpm i && pnpm build
 ```
 Note: this requires node to be at least version 22 when you install packages and run the agent.
 
@@ -92,3 +93,18 @@ docker compose -f docker-compose-image.yaml up
 # Deploy with Railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aW47_j)
+
+# NVM
+https://github.com/nvm-sh/nvm
+```
+bash 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+nvm install 22
+nvm use 22
+```
+
+#pnpm 
+```
+bash
+curl -fsSL https://get.pnpm.io/install.sh | sh -
+```
