@@ -4,7 +4,10 @@
   "clients": ["discord"],
   "modelProvider": "venice",
   "settings": {
-    "secrets": {},
+    "secrets": {
+      "DISCORD_APPLICATION_ID":"paste discord id here",
+      "DISCORD_API_TOKEN":"paste discord api token here"
+    },
     "voice": {
       "model": "en_US-hfc_female-medium"
     }
